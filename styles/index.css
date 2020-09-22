@@ -1,11 +1,235 @@
 
-
-
-.navbar {
-    width: 100%;
+@font-face {
+    font-family: KumbhSans-Regular;
+    src: url(fonts/Kumbh_Sans/KumbhSans-Regular.ttf);
 }
+
+* {
+    font-family: KumbhSans-Regular, sans-serif;
+}
+
+
+/* NAVBAR */
+.navbar-custom {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 700ms ease;
+}
+
+.navbar-custom.scrolled {
+    background: black;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: grey !important;
+}
+
+.nav-link:active {
+    color: grey !important;
+}
+
 
 .navbar-brand img {
     width: 2em;
 }
 
+
+
+/* INTRO */
+
+#introPage {
+    height: 90vh;
+    background-image: url("../images/background-image/landing-page-bg-dark.jpg");
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+.bi-chevron-down {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+/* ABOUT */
+
+#about {
+    height: auto;
+}
+
+#about .jumbotron-fluid {
+    align-items: center;
+}
+
+#about h2 {
+    margin-top: 3em;
+}
+
+.prof-pic {
+    width: 10em;
+}
+
+.info {
+    margin: 2em;
+}
+
+
+
+
+
+/* EXPERIENCE */
+
+#experience {
+    background: rgb(212, 212, 212);
+    height: auto;
+}
+
+#experience .jumbotron-fluid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+#experience h2 {
+    margin-top: 3em;
+}
+
+
+
+
+
+
+
+/* PROJECTS */
+
+#projects .jumbotron-fluid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-top: 3em;
+}
+
+.tech-work {
+    display: flex;
+}
+
+.techs {
+    /*border: solid white;*/
+    width: 60vw;
+    height: 50vh;
+    margin-top: 2em;
+    margin-right: 5em;
+    text-align: left;
+}
+
+.icon {
+    width: 5em;
+    margin: 1em;
+}
+
+.small-icon {
+    width: 2em;
+}
+
+.work {
+    display: inline-flex;
+    flex-direction: column;
+    /*border: solid white;*/
+    width: 40vw;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.work .icon {
+    flex-wrap: wrap;
+    width: 9em;
+    margin: 1em;
+}
+
+.project-work {
+    margin-top: 2em;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 0.5em;
+} 
+
+
+
+
+
+
+/* CONTACT */
+
+#contact {
+    background: rgb(212, 212, 212);
+    height: 90vh;
+}
+
+#contact .jumbotron-fluid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#contact h2 {
+    margin-top: 3em;
+}
+
+.cv {
+    width: 10em;
+}
+
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    background: rgb(212, 212, 212);
+    height: auto;
+}
+
+footer .btn {
+    margin-bottom: 2em;
+}
+
+
+
+/* MEDIA QUERIES */
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .navbar {
+        background-color: black;
+    }
+}

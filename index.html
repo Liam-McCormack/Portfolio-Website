@@ -22,9 +22,9 @@
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
-        <a class="navbar-brand" href="#">
+
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom py-0" role="navigation">
+        <a class="navbar-brand py-0" href="#">
             <img src="images/logos/portfolo-icon4.svg" alt="Portfolio Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,35 +34,166 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">EXPERIENCE</a>
+                    <a class="nav-link" href="#experience">EXPERIENCE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PROJECTS</a>
+                    <a class="nav-link" href="#projects">PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
     </nav>
     
+    <!--INTRO-->
+    <section id="introPage">
+        <div class="jumbotron-fluid">
+            <h1 class="display-1">
+                HI, I'M LIAM
+            </h1>
+            <p class="lead px-3">
+                TV professional turned Junior Software Engineer
+            </p>
+            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </div>
+    </section>
 
-    <div class="jumbotron">
-        <h1 class="display-1">HI, I'M LIAM</h1>
-        <p class="lead">Junior Software Engineer</p>
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-    </div>
+    <!--ABOUT-->
+    <section id="about">
+        <div class="jumbotron-fluid text-center d-flex flex-column justify-content-center">
+            <h2 class="display-6">
+                A BIT ABOUT ME
+            </h2>
+            <img src="images/portfolio-profpic.png" class ="prof-pic">
+            <div class="container">
+                <p class="info">
+                    Hi! My name is Liam and I'm a Junior Software Engineer with a passion for front end development and design. 
+                    Having attended and gained a degree at the University of Salford, I worked as a freelancer in the TV industry for 3 years.
+                    Now, I use my passion for creativity in the Technology industry and develop websites and apps! 
+                    I aspire toward a career that allows me to express my creativity by crafting great software and engaging experiences.      
+                </p>
+                <p class="info"> 
+                    When I'm not at the computer, I also enjoy going to the gym, long walks and petting my French-Bulldog Maximus.
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <!--EXPERIENCE-->
+    <section id="experience">
+        <div class="jumbotron-fluid">
+            <h2 class="display-6">
+                EXPERIENCE
+            </h2>
+            <div class="container">
+                <p class="info">
+                    I've been coding since March 2020, making use of learning resources such as Codecademy and FreeCodeCamp, 
+                    and also attending the <a href="https://northcoders.com/">Northcoders</a> coding school in Manchester.
+                </p>
+                <p class="info">
+                    I'm always eager to learn new skills, and hope to positively contribute to a number of projects in this fast paced industry.
+                </p>
+            </div>
+            <div class="container tech-work">
+                <div class="techs">
+                    <p>
+                        SOME TECHNOLOGIES I'VE WORKED WITH:
+                    </p>
+                    <div>
+                        <img src="images/logos/html5-original-wordmark.svg" class="icon"/>
+                        <img src="images/logos/css3-original-wordmark.svg" class="icon"/>
+                        <img src="images/logos/javascript-original.svg" class="icon"/>
+                        <img src="images/logos/visualstudio-plain.svg" class="icon"/>
+                        <img src="images/logos/nodejs-original.svg" class="icon"/>
+                        <img src="images/logos/jquery-original-wordmark.svg" class="icon"/>
+                        <img src="images/logos/bootstrap-plain.svg" class="icon"/>
+                        <img src="images/logos/github-original.svg" class="icon"/>
+                        <img src="images/logos/react-original.svg" class="icon"/>
+                    </div>
+                </div>
+                <div class="work">
+                    <p>
+                        WHERE I'VE WORKED:
+                    </p>
+                    <img src="images/logos/itv-logo.svg" class="icon"/>
+                    <img src="images/logos/bbc-logo.svg" class="icon"/>
+                    <img src="images/logos/wagamama_logo.svg" class="icon"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="jumbotron-fluid">
+            <h2 class="display-6">
+                WHAT I'VE DONE
+            </h2>
+            <div class="container">
+                <p>
+                    {more coming soon!}
+                </p>
+            </div>
+            <div class="container-fluid project-work">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="container">
+                <p class="info">
+                    You can also check out more of my work on my Github: 
+                    <a href="https://github.com/Liam-McCormack">Liam's Github Profile</a> <img src="images/logos/github-original.svg" class="small-icon"/> 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="jumbotron-fluid">
+            <h2 class="display-6">
+                GET IN TOUCH
+            </h2>
+            <p class="info">
+                I'm currently <u style="color:rgb(13, 190, 7)"><strong>available</strong></u> and looking for work in Manchester/North West!
+                Please grab a copy of my CV below.
+            </p>
+            <button class="btn btn-light cv" href="#" role="button" type="button">DOWNLOAD CV</button>
+            <p class="info">
+                I can be contacted on the following email address:
+            </p>
+            <p class="lead">
+                <a href="mailto:liammccormack@outlook.com">liammccormack@outlook.com</a>
+            </p>
+            <p class="info">
+                You can also reach me on the following socials. Thanks for your time!
+            </p>
+            <div class="socials">
+                <a href="https://twitter.com/Liam_Codes"><img src="images/logos/twitter-original.svg" class="icon"/></a>   
+                <a href="https://www.linkedin.com/in/liam-mccormack-3024171aa/"><img src="images/logos/linkedin-original.svg" class="icon" href="https://www.linkedin.com/in/liam-mccormack-3024171aa/"/></a>   
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top cv" role="button">BACK TO TOP</a>
+    </footer>
+    
 
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
