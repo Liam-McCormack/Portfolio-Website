@@ -13,6 +13,12 @@ $('.nav-link').click(function() {
     }, 1500);
 });
 
+//CHEVRON ON-CLICK SCROLL TO ABOUT
+$(".bi-chevron-down").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#about").offset().top
+    }, 1500);
+});
 
 //BACK TO TOP BUTTON
 $('#back-to-top').click(function () {
