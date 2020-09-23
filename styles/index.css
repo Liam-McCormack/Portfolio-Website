@@ -26,18 +26,17 @@
     border: none;
 }
 
-.nav-link {
+.navbar-nav a.nav-link:hover {
+    color: grey !important;
+}
+
+.navbar-nav a.nav-link {
     color: white !important;
 }
 
-.nav-link:hover {
+.navbar-nav a.nav-link.active {
     color: grey !important;
 }
-
-.nav-link:active {
-    color: grey !important;
-}
-
 
 .navbar-brand img {
     width: 2em;
@@ -94,6 +93,14 @@
     margin: 2em;
 }
 
+#about .container {
+    margin-bottom: 6em;
+}
+
+.tldr {
+    background: rgb(212, 212, 212);
+}
+
 
 
 
@@ -113,25 +120,6 @@
 }
 
 #experience h2 {
-    margin-top: 3em;
-}
-
-
-
-
-
-
-
-/* PROJECTS */
-
-#projects .jumbotron-fluid {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    text-align: center;
-}
-
-#projects h2 {
     margin-top: 3em;
 }
 
@@ -172,6 +160,25 @@
     margin: 1em;
 }
 
+
+
+
+
+
+
+/* PROJECTS */
+
+#projects .jumbotron-fluid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-top: 3em;
+}
+
 .project-work {
     margin-top: 2em;
     display: inline-flex;
@@ -179,8 +186,13 @@
 }
 
 .card {
+    width: 30em;
     margin: 0.5em;
 } 
+
+.profile {
+    margin-bottom: 2em;
+}
 
 
 
@@ -231,5 +243,49 @@ footer .btn {
 @media (max-width: 767.98px) {
     .navbar {
         background-color: black;
+    }
+
+
+    /* ABOUT */
+    #about .container {
+        margin-bottom: 2em;
+    }
+
+
+    /* EXPERIENCE */
+    .tech-work {
+        flex-direction: column;
+    }
+
+    .techs {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+
+    .logos .icon {
+        width: 4em;
+    }
+
+    .work {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    /* CONTACT */
+
+    #contact .info {
+        margin: 1em;
+    }
+
+    #contact .icon {
+        width: 3.5em;
+        margin: 0.5em;
+    }
+
+    #contact {
+        height: 90vh;
     }
 }
