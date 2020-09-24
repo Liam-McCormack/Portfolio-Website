@@ -223,6 +223,10 @@
     width: 10em;
 }
 
+#contact .icon {
+    width: 8em;
+}
+
 .socials {
     width: auto;
 }
@@ -291,5 +295,9 @@ footer .btn {
 
     #contact {
         height: 90vh;
+    }
+
+    .socials {
+        margin-top: 0;
     }
 }

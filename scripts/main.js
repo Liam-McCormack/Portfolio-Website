@@ -13,6 +13,12 @@ $('.nav-link').click(function() {
     }, 1500);
 });
 
+
+//NAVBAR COLLAPSE ON SELECTED LINK
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
 //CHEVRON ON-CLICK SCROLL TO ABOUT
 $(".bi-chevron-down").click(function() {
     $([document.documentElement, document.body]).animate({
@@ -27,5 +33,3 @@ $('#back-to-top').click(function () {
     }, 1500);
     return false;
 });
-
-
