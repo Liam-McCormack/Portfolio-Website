@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,6 +21,7 @@
     <meta name="msapplication-TileColor" content="#b91d47">
     <meta name="theme-color" content="#ffffff">
     <script src="https://kit.fontawesome.com/61c0823f99.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -29,10 +31,11 @@
         <a class="navbar-brand py-0" href="#">
             <img src="images/logos/portfolo-icon4.svg" alt="Portfolio Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -50,38 +53,43 @@
             </ul>
         </div>
     </nav>
-    
+
     <!--INTRO-->
     <section id="introPage">
-        <div class="jumbotron-fluid">
+        <div class="jumbotron-fluid blurred-box" data-aos="zoom-in">
             <h1 class="display-1">
                 HI, I'M LIAM
             </h1>
             <p class="lead px-3">
                 TV professional turned Junior Software Engineer
             </p>
-            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg>
+        </div>
+        <div id='arrow'>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
         </div>
     </section>
 
     <!--ABOUT-->
     <section id="about">
-        <div class="jumbotron-fluid text-center d-flex flex-column justify-content-center">
+        <div class="jumbotron-fluid text-center d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
             <h2 class="display-6">
                 A BIT ABOUT ME
             </h2>
-            <img src="images/portfolio-profpic.png" class ="prof-pic">
+            <img src="images/portfolio-profpic.png" class="prof-pic">
             <div class="container">
                 <p class="info">
-                    Hi! My name is Liam and I'm a Junior Software Engineer with a passion for front end development and design. 
-                    Having attended and gained a degree at the University of Salford, I worked as a freelancer in the TV industry for 3 years.
-                    Now, I use my passion for creativity in the Technology industry and develop websites and apps! 
-                    I aspire toward a career that allows me to express my creativity by crafting great software and engaging experiences.      
+                    Hi! My name is Liam and I'm a Junior Software Engineer with a passion for front end development and
+                    design.
+                    Having attended and gained a degree at the University of Salford, I worked as a freelancer in the TV
+                    industry for 3 years.
+                    Now, I use my passion for creativity in the Technology industry and develop websites and apps!
+                    I aspire toward a career that allows me to express my creativity by crafting great software and
+                    engaging experiences.
                 </p>
-                <p class="info"> 
-                    When I'm not at the computer, I also enjoy going to the gym, long walks and petting my French-Bulldog Maximus.
+                <p class="info">
+                    When I'm not at the computer, I also enjoy going to the gym, long walks and petting my
+                    French-Bulldog Maximus.
                 </p>
             </div>
         </div>
@@ -89,17 +97,20 @@
 
     <!--EXPERIENCE-->
     <section id="experience">
-        <div class="jumbotron-fluid">
+        <div class="jumbotron-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h2 class="display-6">
                 EXPERIENCE
             </h2>
             <div class="container">
                 <p class="info">
-                    I've been coding since March 2020, making use of learning resources such as Codecademy and FreeCodeCamp, 
-                    and also attending the <a href="https://northcoders.com/" target="_blank">Northcoders</a> coding school in Manchester.
+                    I've been coding since March 2020, making use of learning resources such as Codecademy and
+                    FreeCodeCamp,
+                    and also attending the <a href="https://northcoders.com/" target="_blank">Northcoders</a> coding
+                    school in Manchester.
                 </p>
                 <p class="info">
-                    I'm always eager to learn new skills, and hope to positively contribute to a number of projects in this fast paced industry.
+                    I'm always eager to learn new skills, and hope to positively contribute to a number of projects in
+                    this fast paced industry.
                 </p>
             </div>
             <div class="container tech-work">
@@ -108,24 +119,27 @@
                         SOME TECHNOLOGIES I'VE WORKED WITH:
                     </p>
                     <div class="logos">
-                        <img src="images/logos/html5-original-wordmark.svg" class="icon"/>
-                        <img src="images/logos/css3-original-wordmark.svg" class="icon"/>
-                        <img src="images/logos/javascript-original.svg" class="icon"/>
-                        <img src="images/logos/visualstudio-plain.svg" class="icon"/>
-                        <img src="images/logos/nodejs-original.svg" class="icon"/>
-                        <img src="images/logos/jquery-original-wordmark.svg" class="icon"/>
-                        <img src="images/logos/bootstrap-plain.svg" class="icon"/>
-                        <img src="images/logos/github-original.svg" class="icon"/>
-                        <img src="images/logos/react-original.svg" class="icon"/>
+                        <img src="images/logos/html5-original-wordmark.svg" class="icon" />
+                        <img src="images/logos/css3-original-wordmark.svg" class="icon" />
+                        <img src="images/logos/javascript-original.svg" class="icon" />
+                        <img src="images/logos/visualstudio-plain.svg" class="icon" />
+                        <img src="images/logos/nodejs-original.svg" class="icon" />
+                        <img src="images/logos/jquery-original-wordmark.svg" class="icon" />
+                        <img src="images/logos/bootstrap-plain.svg" class="icon" />
+                        <img src="images/logos/github-original.svg" class="icon" />
+                        <img src="images/logos/react-original.svg" class="icon" />
+                        <img src="images/logos/postgresql-original-wordmark.svg" class="icon" />
+                        <img src="images/logos/express-original-wordmark.svg" class="icon" />
+                        <img src="images/logos/heroku-plain-wordmark.svg" class="icon" />
                     </div>
                 </div>
                 <div class="work">
                     <p>
                         WHERE I'VE WORKED:
                     </p>
-                    <img src="images/logos/itv-logo.svg" class="icon"/>
-                    <img src="images/logos/bbc-logo.svg" class="icon"/>
-                    <img src="images/logos/wagamama_logo.svg" class="icon"/>
+                    <img src="images/logos/itv-logo.svg" class="icon" />
+                    <img src="images/logos/bbc-logo.svg" class="icon" />
+                    <img src="images/logos/wagamama_logo.svg" class="icon" />
                 </div>
             </div>
         </div>
@@ -133,7 +147,7 @@
 
     <!-- PROJECTS -->
     <section id="projects">
-        <div class="jumbotron-fluid">
+        <div class="jumbotron-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h2 class="display-6">
                 WHAT I'VE DONE
             </h2>
@@ -146,16 +160,19 @@
                 <div class="card">
                     <img class="card-img-top" src="./images/bestiary-site.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">The Witcher Bestiary Website</h5>
-                      <p class="card-text">Fan project recreating The Witcher Bestiary from the popular videogame 'The Witcher 3: Wild Hunt'. Made with basic HTML, CSS, JavaScript & jQuery.</p>
-                      <a href="https://eloquent-lovelace-360d57.netlify.app/" class="btn btn-primary" target="_blank">GO TO PROJECT</a>
+                        <h5 class="card-title">The Witcher Bestiary Website</h5>
+                        <p class="card-text">Fan project recreating The Witcher Bestiary from the popular videogame 'The
+                            Witcher 3: Wild Hunt'. Made with basic HTML, CSS, JavaScript & jQuery.</p>
+                        <a href="https://eloquent-lovelace-360d57.netlify.app/" class="btn btn-primary"
+                            target="_blank">GO TO PROJECT</a>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="container profile">
                 <p class="info">
-                    You can also check out more of my work on my Github: 
-                    <a href="https://github.com/Liam-McCormack" target="_blank">Liam's Github Profile</a> <img src="images/logos/github-original.svg" class="small-icon"/> 
+                    You can also check out more of my work on Github:
+                    <a href="https://github.com/Liam-McCormack" target="_blank">Liam's Github Profile</a> <img
+                        src="images/logos/github-original.svg" class="small-icon" />
                 </p>
             </div>
         </div>
@@ -163,15 +180,17 @@
 
     <!-- CONTACT -->
     <section id="contact">
-        <div class="jumbotron-fluid">
+        <div class="jumbotron-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h2 class="display-6">
                 GET IN TOUCH
             </h2>
             <p class="info">
-                I'm currently <u style="color:rgb(13, 190, 7)"><strong>available</strong></u> and looking for work in Manchester/North West!
+                I'm currently <u style="color:rgb(13, 190, 7)"><strong>available</strong></u> and looking for work in
+                Manchester/North West!
                 Please grab a copy of my CV below.
             </p>
-            <button class="btn btn-light cv" href="" role="button" type="button"><a href="#" download>DOWNLOAD CV</a></button>
+            <button class="btn btn-light cv" href="" role="button" type="button"><a href="#" download>DOWNLOAD
+                    CV</a></button>
             <p class="info">
                 I can be contacted on the following email address:
             </p>
@@ -183,23 +202,34 @@
             </p>
             <div class="socials">
                 <a href="https://twitter.com/Liam_Codes" target="_blank">
-                    <img src="images/logos/twitter-original.svg" class="icon" alt="twitter logo"/>
-                </a>   
+                    <img src="images/logos/twitter-original.svg" class="icon" alt="twitter logo" />
+                </a>
                 <a href="https://www.linkedin.com/in/liam-mccormack-3024171aa/" target="_blank">
-                    <img src="images/logos/linkedin-original.svg" class="icon" alt="linkedin logo"/>
-                </a>   
+                    <img src="images/logos/linkedin-original.svg" class="icon" alt="linkedin logo" />
+                </a>
             </div>
         </div>
     </section>
     <footer>
         <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top cv" role="button">BACK TO TOP</a>
+        <p>
+            Liam McCormack
+            <span id="date">2020</span>
+        </p>
     </footer>
-    
+
 
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
     <script src="scripts/main.js"></script>
 </body>
+
 </html>

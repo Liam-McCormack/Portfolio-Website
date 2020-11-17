@@ -47,35 +47,60 @@
 /* INTRO */
 
 #introPage {
-    height: 90vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
     background-image: url("../images/background-image/landing-page-bg-dark.jpg");
     background-size: cover;
     color: white;
-    position: relative;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     text-align: center;
 }
 
-.bi-chevron-down {
+#arrow {
+    width: 100%;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    text-align: center;
+    bottom: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+/*chevron animation*/
+.fa-chevron-down {
+   
+    font-size: 5em;
     cursor: pointer;
+    transition: all 0.5s;
+	-webkit-animation: action 1s infinite alternate;
+	animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+@keyframes action {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
 }
 
 
-
-
 /* ABOUT */
-
 #about {
-    height: auto;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
 }
 
 #about .jumbotron-fluid {
@@ -110,7 +135,9 @@
 
 #experience {
     background: rgb(212, 212, 212);
-    height: auto;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
 }
 
 #experience .jumbotron-fluid {
@@ -170,6 +197,9 @@
 /* PROJECTS */
 
 #projects .jumbotron-fluid {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -235,7 +265,9 @@
 /* FOOTER */
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background: rgb(212, 212, 212);
     height: auto;
 }
@@ -245,6 +277,15 @@ footer .btn {
     margin-bottom: 2em;
 }
 
+footer p {
+    display: block;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 2em;
+    color: white;
+    margin-bottom: 0;
+}
 
 
 /* MEDIA QUERIES */
@@ -286,7 +327,7 @@ footer .btn {
     /* CONTACT */
 
     #contact {
-        height: auto;
+        min-height: 80vh;
     }
 
     #contact .info {
