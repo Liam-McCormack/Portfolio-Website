@@ -20,7 +20,7 @@ $('.navbar-nav>li>a').on('click', function () {
 });
 
 //CHEVRON ON-CLICK SCROLL TO ABOUT
-$('#arrow').click(function () {
+$('.arrow').click(function () {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#about").offset().top
     }, 1500);
@@ -33,3 +33,7 @@ $('#back-to-top').click(function () {
     }, 1500);
     return false;
 });
+
+//DATE FOR FOOTER
+const year = new Date().getFullYear();
+document.getElementById("date").innerHTML = year;
