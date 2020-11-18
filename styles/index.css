@@ -68,8 +68,12 @@
     justify-content: center;
 }
 
+.aboutArrow, .experienceArrow, .projectArrow {
+    margin-bottom: 3em;
+}
+
 /*chevron animation*/
-.fa-chevron-down {
+.fa-chevron-circle-down, .fa-chevron-circle-up {
     font-size: 5em;
     cursor: pointer;
     transition: all 0.5s;
@@ -94,20 +98,36 @@
 	}
 }
 
+/* APPLIES TO ALL */
+h2 {
+    margin-top: 3em;
+}
 
-/* ABOUT */
-#about {
+#about, #projects {
     width: 100%;
     height: 100%;
     min-height: 100vh;
 }
 
-#about .jumbotron-fluid {
-    align-items: center;
+
+#experience, #contact {
+    background: rgb(212, 212, 212);
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
 }
 
-#about h2 {
-    margin-top: 3em;
+.jumbotron-fluid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+/* ABOUT */
+
+#about .jumbotron-fluid {
+    align-items: center;
 }
 
 .prof-pic {
@@ -126,36 +146,13 @@
     background: rgb(212, 212, 212);
 }
 
-
-
-
-
 /* EXPERIENCE */
-
-#experience {
-    background: rgb(212, 212, 212);
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-}
-
-#experience .jumbotron-fluid {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    text-align: center;
-}
-
-#experience h2 {
-    margin-top: 3em;
-}
 
 .tech-work {
     display: flex;
 }
 
 .techs {
-    /*border: solid white;*/
     width: 60vw;
     height: 50vh;
     margin-top: 2em;
@@ -175,7 +172,6 @@
 .work {
     display: inline-flex;
     flex-direction: column;
-    /*border: solid white;*/
     width: 40vw;
     margin-top: 2em;
     align-items: center;
@@ -187,27 +183,7 @@
     margin: 1em;
 }
 
-
-
-
-
-
-
 /* PROJECTS */
-
-#projects .jumbotron-fluid {
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    text-align: center;
-}
-
-#projects h2 {
-    margin-top: 3em;
-}
 
 .project-work {
     margin-top: 2em;
@@ -224,57 +200,12 @@
     margin-bottom: 2em;
 }
 
-
-
-
-
-
 /* CONTACT */
 
-#contact {
-    background: rgb(212, 212, 212);
-    height: auto;
-}
-
-#contact .jumbotron-fluid {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-#contact h2 {
-    margin-top: 3em;
-}
-
-.cv {
-    width: 10em;
-}
-
-#contact .icon {
-    width: 8em;
-}
-
-.socials {
-    width: auto;
-}
 
 
 /* FOOTER */
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(212, 212, 212);
-    height: auto;
-}
 
-footer .btn {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
 
 footer p {
     padding-top: 0.3em;
@@ -325,10 +256,6 @@ footer p {
 
     /* CONTACT */
 
-    #contact {
-        min-height: 80vh;
-    }
-
     #contact .info {
         margin: 1em;
     }
@@ -342,8 +269,5 @@ footer p {
         margin-top: 0;
     }
 
-    footer .btn {
-        margin-top: 0;
-        margin-bottom: 0.5em;
-    }
+   
 }

@@ -64,51 +64,59 @@
                 TV professional turned Junior Software Engineer
             </p>
         </div>
-        <div class='arrow'>
-            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+        <div class='arrow' data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
         </div>
     </section>
 
     <!--ABOUT-->
     <section id="about">
-        <div class="jumbotron-fluid text-center d-flex flex-column justify-content-center" data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom">
+        <div class="jumbotron-fluid text-center d-flex flex-column justify-content-center" data-aos="fade-up">
             <h2 class="display-6">
                 A BIT ABOUT ME
             </h2>
             <img src="images/portfolio-profpic.png" class="prof-pic">
             <div class="container">
-                <p class="info" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    Hi! My name is Liam and I'm a Junior Software Engineer with a passion for front end development and
-                    design.
-                    Having attended and gained a degree at the University of Salford, I worked as a freelancer in the TV
-                    industry for 3 years.
-                    <img>
-                    <img>
-                    <img>
+                <p class="info" data-aos="fade-up">
+                    Hi! My name is Liam and I'm a Junior Software Engineer based in
+                    <span style="color: #2289e9">Manchester, UK</span>.
                 </p>
-                <p class="info" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    Now, I use my passion for creativity in the Technology industry and develop websites and apps!
-                    I aspire toward a career that allows me to express my creativity by crafting great software and
-                    engaging experiences.
-                    <img>
-                    <img>
-                    <img>
+                <p class="info" data-aos="fade-up">
+                    After a number of years of running about dark studios, slipping on ice rinks and watching the 500th
+                    user submitted video of a baby falling over,
+                    I recently decided to call ‘Cut!’ on my TV production career and .push() myself into the world of
+                    Tech.
                 </p>
-                <p class="info" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    When I'm not at the computer, I also enjoy going to the gym, long walks and petting my
-                    French-Bulldog Maximus.
+                <p class="info" data-aos="fade-up">
+                    Whilst looking for a place to start, I was lucky enough to successfully apply for a free Pro
+                    membership on Codecademy during COVID and begin my first steps into the grand world of software
+                    development on the ‘Web Development Career Path’.
+                    From this point I truly found myself falling in love with coding, a subject I thought was well
+                    beyond my understanding.
+                    To further enhance my self-learning, I began absorbing every resource I could on software
+                    development in both book form and online resources.
                 </p>
-                <img>
-                <img>
-                <img>
+                <p class="info" data-aos="fade-up">
+                    After a few months of self-learning and creating projects I had only envisioned in my mind, I wanted
+                    to truly enhance my coding skills for both myself and potential future employers.
+                    From this point I enrolled in the coding bootcamp Northcoders.
+                </p>
+                <p class="info" data-aos="fade-up">
+                    I will be graduating from Northcoders in January 2021, and will come out of the other side with a
+                    range of full-stack development skills that I hope I can continue to expand upon within the
+                    foreseeable future!
+                </p>
             </div>
+            <div class="aboutArrow" data-aos="fade-up">
+                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+            </div>
+
         </div>
     </section>
 
     <!--EXPERIENCE-->
     <section id="experience">
-        <div class="jumbotron-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="jumbotron-fluid" data-aos="fade-up">
             <h2 class="display-6">
                 EXPERIENCE
             </h2>
@@ -153,12 +161,15 @@
                     <img src="images/logos/wagamama_logo.svg" class="icon" />
                 </div>
             </div>
+            <div class="experienceArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <i class="fas fa-chevron-circle-down" aria-hidden="true" style="color: #ffffff;"></i>
+            </div>
         </div>
     </section>
 
     <!-- PROJECTS -->
     <section id="projects">
-        <div class="jumbotron-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="jumbotron-fluid" data-aos="fade-up">
             <h2 class="display-6">
                 WHAT I'VE DONE
             </h2>
@@ -186,6 +197,9 @@
                         src="images/logos/github-original.svg" class="small-icon" />
                 </p>
             </div>
+            <div class="projectArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+            </div>
         </div>
     </section>
 
@@ -200,29 +214,23 @@
                 Manchester/North West!
                 Please grab a copy of my CV below.
             </p>
-            <button class="btn btn-light cv" href="" role="button" type="button"><a href="#" download>DOWNLOAD
-                    CV</a></button>
+
             <p class="info">
                 I can be contacted on the following email address:
             </p>
             <p class="lead">
                 <a href="mailto:liammccormack@outlook.com">liammccormack@outlook.com</a>
             </p>
-            <p class="info">
-                You can also reach me on the following socials. Thanks for your time!
-            </p>
-            <div class="socials">
-                <a href="https://twitter.com/Liam_Codes" target="_blank">
-                    <img src="images/logos/twitter-original.svg" class="icon" alt="twitter logo" />
-                </a>
-                <a href="https://www.linkedin.com/in/liam-mccormack-3024171aa/" target="_blank">
-                    <img src="images/logos/linkedin-original.svg" class="icon" alt="linkedin logo" />
-                </a>
+
+            <div id="back-to-top" class="returnArrow " href="#" data-aos="fade-up">
+                <i class="fas fa-chevron-circle-up"></i>
             </div>
         </div>
+
     </section>
     <footer>
-        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top cv" role="button">BACK TO TOP</a>
+        <!-- <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top cv" role="button">BACK TO TOP</a> -->
+
         <p>
             Liam McCormack
             <span id="date"></span>

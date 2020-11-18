@@ -19,10 +19,28 @@ $('.navbar-nav>li>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
 
-//CHEVRON ON-CLICK SCROLL TO ABOUT
+//CHEVRON ON-CLICK SCROLLS
 $('.arrow').click(function () {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#about").offset().top
+    }, 1500);
+});
+
+$('.aboutArrow').click(function () {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#experience").offset().top
+    }, 1500);
+});
+
+$('.experienceArrow').click(function () {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#projects").offset().top
+    }, 1500);
+});
+
+$('.projectArrow').click(function () {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contact").offset().top
     }, 1500);
 });
 
