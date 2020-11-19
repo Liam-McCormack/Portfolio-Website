@@ -213,8 +213,7 @@
                 Please grab a copy of my CV below.
             </p>
             <button type="submit" class="btn btn-primary cv" data-toggle="modal" data-target="#downloaded-cv">
-                <a href="path_to_file" download="proposed_file_name" style="color:#ffffff" data-toggle="modal"
-                    data-target="#staticBackdrop">
+                <a href="./images/experience-pics/404.jpeg" download="404.jpeg" style="color:#ffffff">
                     Download CV
                     <span style='font-size:20px;'>&#128196;</span>
                 </a>
@@ -238,52 +237,26 @@
                 Or you can contact me on the form below:
             </p>
             <div class='container'>
-                <form action="mailto:liammccormack@outlook.com?subject=Website Enquiry" method="post"
-                    enctype="text/plain">
-                    <!-- action="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#97;&#109;&#109;&#99;&#99;&#111;&#114;&#109;&#97;&#99;&#107;&#64;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;"> -->
+                <form action="https://formspree.io/f/mnqozwyb" method="POST">
                     <div class="form-group">
                         <label for="email">Your email address</label>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                        <input type="text" name="_replyto" class="form-control" id="email"
+                            placeholder="name@example.com">
                     </div>
-
-
                     <div class="form-group">
                         <label for="name">Your name</label>
                         <input type="text" class="form-control" name="name" id="name" placeholder="Joe Bloggs">
                     </div>
-
-
                     <div class="form-group">
                         <label for="message">Your message</label>
-                        <textarea class="form-control" id="message" rows="3"
+                        <textarea class="form-control" name="message" id="message" rows="3"
                             placeholder="The meaning of life is..."></textarea>
                     </div>
-
-
                     <button type="submit" class="btn btn-primary" name="submit" data-toggle="modal"
                         data-target="#submitted">
                         Submit
                         <span style='font-size:20px;'>&#128232;</span>
                     </button>
-
-
-
-
-                    <div class="modal fade" id="submitted" data-keyboard="false" tabindex="-1"
-                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    Thanks for the message! I will try to get back to you ASAP.
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary thumbs-up" data-dismiss="modal">
-                                        <span style='font-size:30px;'>&#128077;</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </form>
             </div>
             <div id="back-to-top" class="returnArrow " href="#">
