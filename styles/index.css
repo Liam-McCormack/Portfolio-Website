@@ -81,6 +81,10 @@
 	animation: action 1s infinite alternate;
 }
 
+.fa-chevron-circle-up {
+    margin-top: 0.5em;
+}
+
 @-webkit-keyframes action {
 	0% {
 		transform: translateY(0);
@@ -124,11 +128,11 @@ h2 {
     text-align: center;
 }
 
-/* ABOUT */
-
-#about .jumbotron-fluid {
+#about .jumbotron-fluid, #contact .jumbotron-fluid {
     align-items: center;
 }
+
+/* ABOUT */
 
 .prof-pic {
     width: 10em;
@@ -202,7 +206,38 @@ h2 {
 
 /* CONTACT */
 
+.cv {
+    
+    color: white;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group {
+    width: 80%;
+}
+
+#message {
+    height: 20vh;
+} 
+
+/* CONTACT MODALS */
+.modal-body {
+    padding-bottom: 0;
+}
+
+.modal-footer {
+    justify-content:center;
+    border: none; 
+}
+
+.thumbs-up {
+    background-color: #007bff;
+    border-color: #007bff;
+}
 
 /* FOOTER */
 
@@ -269,5 +304,7 @@ footer p {
         margin-top: 0;
     }
 
-   
+    #email, #name {
+        width: 100%;
+    }
 }

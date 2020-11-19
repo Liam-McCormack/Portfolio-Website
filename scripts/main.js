@@ -19,6 +19,12 @@ $('.navbar-nav>li>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
 
+//TYPING EFFECT
+new TypeIt(".type-effect")
+    .type("TV professional turned Junior Software Engineer")
+    .pause(1000)
+    .go();
+
 //CHEVRON ON-CLICK SCROLLS
 $('.arrow').click(function () {
     $([document.documentElement, document.body]).animate({
