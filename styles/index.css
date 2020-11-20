@@ -107,6 +107,7 @@ h2 {
     margin-top: 3em;
 }
 
+
 #about, #projects {
     width: 100%;
     height: 100%;
@@ -142,13 +143,6 @@ h2 {
     margin: 2em;
 }
 
-#about .container {
-    margin-bottom: 6em;
-}
-
-.tldr {
-    background: rgb(212, 212, 212);
-}
 
 /* EXPERIENCE */
 
@@ -216,9 +210,15 @@ form {
     flex-direction: column;
     align-items: center;
 }
-.form-group {
-    width: 80%;
+
+.form-group-email, .form-group-name {
+    width: 40%;
 }
+
+.form-group {
+    width: 70%;
+}
+
 
 #message {
     height: 20vh;
@@ -304,7 +304,8 @@ footer p {
         margin-top: 0;
     }
 
-    #email, #name {
-        width: 100%;
+    .form-group-email, .form-group-name{
+        width: 70%;
     }
+    
 }

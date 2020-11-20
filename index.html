@@ -20,6 +20,7 @@
     <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#000000">
     <meta name="msapplication-TileColor" content="#b91d47">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/61c0823f99.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -106,7 +107,7 @@
                     foreseeable future!
                 </p>
             </div>
-            <div class="aboutArrow" data-aos="fade-up">
+            <div class="aboutArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
             </div>
 
@@ -161,7 +162,7 @@
                 </div>
             </div>
             <div class="experienceArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <i class="fas fa-chevron-circle-down" aria-hidden="true" style="color: #ffffff;"></i>
+                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
             </div>
         </div>
     </section>
@@ -234,16 +235,16 @@
                 </div>
             </div>
             <p class="info">
-                Or you can contact me on the form below:
+                You can also contact me on the form below:
             </p>
             <div class='container'>
                 <form action="https://formspree.io/f/mnqozwyb" method="POST">
-                    <div class="form-group">
+                    <div class="form-group-email">
                         <label for="email">Your email address</label>
                         <input type="text" name="_replyto" class="form-control" id="email"
                             placeholder="name@example.com">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group-name">
                         <label for="name">Your name</label>
                         <input type="text" class="form-control" name="name" id="name" placeholder="Joe Bloggs">
                     </div>
@@ -277,9 +278,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-
     <script>
         AOS.init({
             duration: 1000,
