@@ -139,6 +139,10 @@ h2 {
     width: 10em;
 }
 
+#about .container {
+    margin-bottom: 2em;
+}
+
 .info {
     margin: 2em;
 }
@@ -156,6 +160,10 @@ h2 {
     margin-top: 2em;
     margin-right: 5em;
     text-align: left;
+}
+
+.logos {
+    text-align: center;
 }
 
 .icon {
@@ -262,9 +270,9 @@ footer p {
 
 
     /* ABOUT */
-    #about .container {
+    /* #about .container {
         margin-bottom: 2em;
-    }
+    } */
 
 
     /* EXPERIENCE */
