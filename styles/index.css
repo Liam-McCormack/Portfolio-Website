@@ -74,7 +74,7 @@
 
 /*chevron animation*/
 .fa-chevron-circle-down, .fa-chevron-circle-up {
-    font-size: 5em;
+    font-size: 5rem;
     cursor: pointer;
     transition: all 0.5s;
 	-webkit-animation: action 1s infinite alternate;
@@ -146,6 +146,34 @@ h2 {
 .info {
     margin: 2em;
 }
+.socials {
+    width: auto;
+    height: 10vh;
+}
+
+.socials-icon {
+    color:white;
+    text-decoration: none;
+}
+
+.socials a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.socials i {
+    color: white;
+    margin: 0.3em;
+	font-size: 2.75rem;
+	transition: all 0.5s;
+}
+
+.socials i:hover {
+	color: #007bff;
+	font-size: 3rem;
+}
+
 
 
 /* EXPERIENCE */
@@ -267,14 +295,7 @@ footer p {
     .navbar {
         background-color: black;
     }
-
-
-    /* ABOUT */
-    /* #about .container {
-        margin-bottom: 2em;
-    } */
-
-
+    
     /* EXPERIENCE */
     .tech-work {
         flex-direction: column;
