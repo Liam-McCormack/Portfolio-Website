@@ -1,303 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Liam McCormack | Junior Software Engineer</title>
 
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+      type="text/css"
+    />
 
     <!--CSS-->
-    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
 
     <!--FAVICON-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
-    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#000000">
-    <meta name="msapplication-TileColor" content="#b91d47">
-    <meta name="theme-color" content="#ffffff">
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://kit.fontawesome.com/61c0823f99.js" crossorigin="anonymous"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <meta name="msapplication-TileColor" content="#b91d47" />
+    <meta name="theme-color" content="#ffffff" />
+    <script
+      src="https://kit.fontawesome.com/61c0823f99.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
 
-</head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav
+      class="navbar navbar-expand-md navbar-dark navbar-custom py-0"
+      role="navigation"
+    >
+      <a class="navbar-brand py-0" href="#">
+        <img src="images/logos/portfolo-icon4.svg" alt="Portfolio Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom py-0" role="navigation">
-        <a class="navbar-brand py-0" href="#">
-            <img src="images/logos/portfolo-icon4.svg" alt="Portfolio Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">EXPERIENCE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">EXPERIENCE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!--INTRO-->
     <section id="introPage">
-        <div class="jumbotron-fluid blurred-box" data-aos="zoom-in">
-            <h1 class="display-1">
-                HI, I'M LIAM
-            </h1>
-            <p class="lead px-3 type-effect">
-            </p>
-            <div class="container socials">
-                <a class="socials-icon" href="https://www.linkedin.com/in/liam-mccormack-3024171aa/">
-                    <i class="devicon-linkedin-plain"></i>
-                </a>
-                <a class="socials-icon" href="https://github.com/Liam-McCormack">
-                    <i class="devicon-github-plain"></i>
-                </a>
-                <a class="socials-icon twitter" href="https://twitter.com/Liam_Codes">
-                    <i class="devicon-twitter-plain"></i>
-                </a>
-            </div>
-        </div>
-        <div class='arrow' data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
-        </div>
+      <div class="jumbotron-fluid blurred-box" data-aos="zoom-in">
+        <h1 class="display-1">HI, I'M LIAM</h1>
+        <p class="lead px-3 type-effect"></p>
+        <!-- <div class="container socials">
+          <a
+            class="socials-icon"
+            href="https://www.linkedin.com/in/liam-mccormack-3024171aa/"
+          >
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+          <a class="socials-icon" href="https://github.com/Liam-McCormack">
+            <i class="devicon-github-plain"></i>
+          </a>
+          <a class="socials-icon twitter" href="https://twitter.com/Liam_Codes">
+            <i class="devicon-twitter-plain"></i>
+          </a>
+        </div> -->
+      </div>
+      <div
+        class="arrow"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+      </div>
     </section>
 
     <!--ABOUT-->
     <section id="about">
-        <div class="jumbotron-fluid text-center d-flex flex-column justify-content-center" data-aos="fade-up">
-            <h2 class="display-6">
-                A BIT ABOUT ME
-            </h2>
-            <img src="images/portfolio-profpic.png" class="prof-pic">
-            <div class="container">
-                <p class="info" data-aos="fade-up">
-                    Hi! My name is Liam and I'm a Junior Software Engineer based in
-                    <span style="color: #2289e9">Manchester, UK</span>.
-                </p>
-                <p class="info" data-aos="fade-up">
-                    After a number of years of running about dark studios, slipping on ice rinks and watching the 500th
-                    user submitted video of a baby falling over,
-                    I recently decided to call ‘Cut!’ on my TV production career and .push() myself into the world of
-                    Tech.
-                </p>
-                <p class="info" data-aos="fade-up">
-                    Whilst looking for a place to start, I was lucky enough to successfully apply for a free Pro
-                    membership on Codecademy during COVID and begin my first steps into the grand world of software
-                    development on the ‘Web Development Career Path’.
-                    From this point I truly found myself falling in love with coding, a subject I thought was well
-                    beyond my understanding.
-                    To further enhance my self-learning, I began absorbing every resource I could on software
-                    development in both book form and online resources.
-                </p>
-                <p class="info" data-aos="fade-up">
-                    After a few months of self-learning and creating projects I had only envisioned in my mind, I wanted
-                    to truly enhance my coding skills for both myself and potential future employers.
-                    From this point I enrolled in the coding bootcamp Northcoders.
-                </p>
-                <p class="info" data-aos="fade-up">
-                    I will be graduating from Northcoders in January 2021, and will come out of the other side with a
-                    range of full-stack development skills that I hope I can continue to expand upon within the
-                    foreseeable future!
-                </p>
-            </div>
-            <div class="aboutArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
-            </div>
-
+      <div
+        class="jumbotron-fluid text-center d-flex flex-column justify-content-center"
+        data-aos="fade-up"
+      >
+        <h2 class="display-6">A BIT ABOUT ME</h2>
+        <img src="images/portfolio-profpic.png" class="prof-pic" />
+        <div class="container">
+          <p class="info" data-aos="fade-up">
+            Hi! My name is Liam and I'm a Junior Software Engineer based in
+            <span style="color: #2289e9">Manchester, UK</span>.
+          </p>
+          <p class="info" data-aos="fade-up">
+            After a number of years of running about dark studios, slipping on
+            ice rinks and watching the 500th user submitted video of a baby
+            falling over, I recently decided to call ‘Cut!’ on my TV production
+            career and .push() myself into the world of Tech.
+          </p>
+          <p class="info" data-aos="fade-up">
+            Whilst looking for a place to start, I was lucky enough to
+            successfully apply for a free Pro membership on Codecademy during
+            COVID and begin my first steps into the grand world of software
+            development on the ‘Web Development Career Path’. From this point I
+            truly found myself falling in love with coding, a subject I thought
+            was well beyond my understanding. To further enhance my
+            self-learning, I began absorbing every resource I could on software
+            development in both book form and online resources.
+          </p>
+          <p class="info" data-aos="fade-up">
+            After a few months of self-learning and creating projects I had only
+            envisioned in my mind, I wanted to truly enhance my coding skills
+            for both myself and potential future employers. From this point I
+            enrolled in the coding bootcamp Northcoders.
+          </p>
+          <p class="info" data-aos="fade-up">
+            I will be graduating from Northcoders in January 2021, and will come
+            out of the other side with a range of full-stack development skills
+            that I hope I can continue to expand upon within the foreseeable
+            future!
+          </p>
         </div>
+        <div
+          class="aboutArrow"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+        </div>
+      </div>
     </section>
 
     <!--EXPERIENCE-->
     <section id="experience">
-        <div class="jumbotron-fluid" data-aos="fade-up">
-            <h2 class="display-6">
-                EXPERIENCE
-            </h2>
-            <div class="container">
-                <p class="info">
-                    I've been coding since March 2020, making use of learning resources such as Codecademy and
-                    FreeCodeCamp,
-                    and also attending the <a href="https://northcoders.com/" target="_blank">Northcoders</a> coding
-                    school in Manchester.
-                </p>
-                <p class="info">
-                    I'm always eager to learn new skills, and hope to positively contribute to a number of projects in
-                    this fast paced industry.
-                </p>
-            </div>
-            <div class="container tech-work">
-                <div class="techs" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <p>
-                        SOME TECHNOLOGIES I'VE WORKED WITH:
-                    </p>
-                    <div class="logos">
-                        <img src="images/logos/html5-original-wordmark.svg" class="icon" />
-                        <img src="images/logos/css3-original-wordmark.svg" class="icon" />
-                        <img src="images/logos/javascript-original.svg" class="icon" />
-                        <img src="images/logos/visualstudio-plain.svg" class="icon" />
-                        <img src="images/logos/nodejs-original.svg" class="icon" />
-                        <img src="images/logos/jquery-original-wordmark.svg" class="icon" />
-                        <img src="images/logos/bootstrap-plain.svg" class="icon" />
-                        <img src="images/logos/github-original.svg" class="icon" />
-                        <img src="images/logos/react-original.svg" class="icon" />
-                        <img src="images/logos/postgresql-original-wordmark.svg" class="icon" />
-                        <img src="images/logos/express-original-wordmark.svg" class="icon" />
-                        <img src="images/logos/heroku-plain-wordmark.svg" class="icon" />
-                    </div>
-                </div>
-                <div class="work" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <p>
-                        WHERE I'VE WORKED:
-                    </p>
-                    <img src="images/logos/itv-logo.svg" class="icon" />
-                    <img src="images/logos/bbc-logo.svg" class="icon" />
-                    <img src="images/logos/wagamama_logo.svg" class="icon" />
-                </div>
-            </div>
-            <div class="experienceArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
-            </div>
+      <div class="jumbotron-fluid" data-aos="fade-up">
+        <h2 class="display-6">EXPERIENCE</h2>
+        <div class="container">
+          <p class="info">
+            I've been coding since March 2020, making use of learning resources
+            such as Codecademy and FreeCodeCamp, and also attending the
+            <a href="https://northcoders.com/" target="_blank">Northcoders</a>
+            coding school in Manchester.
+          </p>
+          <p class="info">
+            I'm always eager to learn new skills, and hope to positively
+            contribute to a number of projects in this fast paced industry.
+          </p>
         </div>
+        <div class="container tech-work">
+          <div
+            class="techs"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <p>SOME TECHNOLOGIES I'VE WORKED WITH:</p>
+            <div class="logos">
+              <img
+                src="images/logos/html5-original-wordmark.svg"
+                class="icon"
+              />
+              <img src="images/logos/css3-original-wordmark.svg" class="icon" />
+              <img src="images/logos/javascript-original.svg" class="icon" />
+              <img src="images/logos/visualstudio-plain.svg" class="icon" />
+              <img src="images/logos/nodejs-original.svg" class="icon" />
+              <img
+                src="images/logos/jquery-original-wordmark.svg"
+                class="icon"
+              />
+              <img src="images/logos/bootstrap-plain.svg" class="icon" />
+              <img src="images/logos/github-original.svg" class="icon" />
+              <img src="images/logos/react-original.svg" class="icon" />
+              <img
+                src="images/logos/postgresql-original-wordmark.svg"
+                class="icon"
+              />
+              <img
+                src="images/logos/express-original-wordmark.svg"
+                class="icon"
+              />
+              <img src="images/logos/heroku-plain-wordmark.svg" class="icon" />
+            </div>
+          </div>
+          <div
+            class="work"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <p>WHERE I'VE WORKED:</p>
+            <img src="images/logos/itv-logo.svg" class="icon" />
+            <img src="images/logos/bbc-logo.svg" class="icon" />
+            <img src="images/logos/wagamama_logo.svg" class="icon" />
+          </div>
+        </div>
+        <div
+          class="experienceArrow"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+        </div>
+      </div>
     </section>
 
     <!-- PROJECTS -->
     <section id="projects">
-        <div class="jumbotron-fluid" data-aos="fade-up">
-            <h2 class="display-6">
-                WHAT I'VE DONE
-            </h2>
-            <div class="container">
-                <p>
-                    {more coming soon!}
-                </p>
-            </div>
-            <div class="container-fluid project-work">
-                <div class="card">
-                    <img class="card-img-top" src="./images/bestiary-site.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">The Witcher Bestiary Website</h5>
-                        <p class="card-text">Fan project recreating The Witcher Bestiary from the popular videogame 'The
-                            Witcher 3: Wild Hunt'. Made with basic HTML, CSS, JavaScript & jQuery.</p>
-                        <a href="https://eloquent-lovelace-360d57.netlify.app/" class="btn btn-primary"
-                            target="_blank">GO TO PROJECT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="container profile">
-                <p class="info">
-                    You can also check out more of my work on Github:
-                    <a href="https://github.com/Liam-McCormack" target="_blank">Liam's Github Profile</a> <img
-                        src="images/logos/github-original.svg" class="small-icon" />
-                </p>
-            </div>
-            <div class="projectArrow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
-            </div>
+      <div class="jumbotron-fluid" data-aos="fade-up">
+        <h2 class="display-6">WHAT I'VE DONE</h2>
+        <div class="container">
+          <p>{more coming soon!}</p>
         </div>
+        <div class="container-fluid project-work">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./images/bestiary-site.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Witcher Bestiary Website</h5>
+              <p class="card-text">
+                Fan project recreating The Witcher Bestiary from the popular
+                videogame 'The Witcher 3: Wild Hunt'. Made with basic HTML, CSS,
+                JavaScript & jQuery.
+              </p>
+              <a
+                href="https://eloquent-lovelace-360d57.netlify.app/"
+                class="btn btn-primary"
+                target="_blank"
+                >GO TO PROJECT</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="container profile">
+          <p class="info">
+            You can also check out more of my work on Github:
+            <a href="https://github.com/Liam-McCormack" target="_blank"
+              >Liam's Github Profile</a
+            >
+            <img src="images/logos/github-original.svg" class="small-icon" />
+          </p>
+        </div>
+        <div
+          class="projectArrow"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+        </div>
+      </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact">
-        <div class="jumbotron-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <h2 class="display-6">
-                GET IN TOUCH
-            </h2>
-            <p class="info">
-                I'm currently <u style="color:rgb(13, 190, 7)"><strong>available</strong></u>!
-                Please grab a copy of my CV below.
-            </p>
-            <button type="submit" class="btn btn-primary cv" data-toggle="modal" data-target="#downloaded-cv">
-                <a href="./images/Liam McCormack Cirriculum Vitae.pdf" download="Liam McCormack Cirriculum Vitae.pdf"
-                    style="color:#ffffff">
-                    Download CV
-                    <span style='font-size:20px;'>&#128196;</span>
-                </a>
-            </button>
-            <div class="modal fade" id="downloaded-cv" data-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            Thanks for the download!
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary thumbs-up" data-dismiss="modal">
-                                <span style='font-size:30px;'>&#128077;</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+      <div
+        class="jumbotron-fluid"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <h2 class="display-6">GET IN TOUCH</h2>
+        <p class="info">
+          I'm currently
+          <u style="color: rgb(13, 190, 7)"><strong>available</strong></u
+          >! Please grab a copy of my CV below.
+        </p>
+        <button
+          type="submit"
+          class="btn btn-primary cv"
+          data-toggle="modal"
+          data-target="#downloaded-cv"
+        >
+          <a
+            href="./images/Liam McCormack Cirriculum Vitae.pdf"
+            download="Liam McCormack Cirriculum Vitae.pdf"
+            style="color: #ffffff"
+          >
+            Download CV
+            <span style="font-size: 20px">&#128196;</span>
+          </a>
+        </button>
+        <div
+          class="modal fade"
+          id="downloaded-cv"
+          data-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">Thanks for the download!</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary thumbs-up"
+                  data-dismiss="modal"
+                >
+                  <span style="font-size: 30px">&#128077;</span>
+                </button>
+              </div>
             </div>
-            <p class="info">
-                You can also contact me on the form below:
-            </p>
-            <div class='container'>
-                <form action="https://formspree.io/f/mnqozwyb" method="POST">
-                    <div class="form-group-email">
-                        <label for="email">Your email address</label>
-                        <input type="text" name="_replyto" class="form-control" id="email"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="form-group-name">
-                        <label for="name">Your name</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Joe Bloggs">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your message</label>
-                        <textarea class="form-control" name="message" id="message" rows="3"
-                            placeholder="The meaning of life is..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" name="submit" data-toggle="modal"
-                        data-target="#submitted">
-                        Submit
-                        <span style='font-size:20px;'>&#128232;</span>
-                    </button>
-                </form>
-            </div>
-            <div id="back-to-top" class="returnArrow " href="#">
-                <i class="fas fa-chevron-circle-up"></i>
-            </div>
+          </div>
         </div>
-
+        <p class="info">You can also contact me on the form below:</p>
+        <div class="container">
+          <form action="https://formspree.io/f/mnqozwyb" method="POST">
+            <div class="form-group-email">
+              <label for="email">Your email address</label>
+              <input
+                type="text"
+                name="_replyto"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group-name">
+              <label for="name">Your name</label>
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                placeholder="Joe Bloggs"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea
+                class="form-control"
+                name="message"
+                id="message"
+                rows="3"
+                placeholder="The meaning of life is..."
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="submit"
+              data-toggle="modal"
+              data-target="#submitted"
+            >
+              Submit
+              <span style="font-size: 20px">&#128232;</span>
+            </button>
+          </form>
+        </div>
+        <div id="back-to-top" class="returnArrow" href="#">
+          <i class="fas fa-chevron-circle-up"></i>
+        </div>
+      </div>
     </section>
     <footer>
-        <p>
-            Liam McCormack
-            <span id="date"></span>
-        </p>
+      <p>
+        Liam McCormack
+        <span id="date"></span>
+      </p>
     </footer>
-
-
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script>
-        AOS.init({
-            duration: 1000,
-        });
+      AOS.init({
+        duration: 1000,
+      });
     </script>
     <script src="scripts/main.js"></script>
-</body>
-
+  </body>
 </html>
